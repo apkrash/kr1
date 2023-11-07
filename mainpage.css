@@ -1,0 +1,63 @@
+body{
+    font-family: 'dance', serif;
+    background-color: white;
+    }
+
+header {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    }
+
+.cake-wrap {
+    width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding:25px;
+    text-align: center;
+    font-size: 40px;
+    border: solid;
+    border-color: black
+    }
+
+.cake {
+    position: relative;
+    overflow: hidden; }
+
+.cake img {
+    width: 450px;}
+
+.cake-title a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+     padding-top: 7px;
+    display: block;
+    position: relative;
+    }
+
+
+
+a {
+    text-decoration: none;
+  }
+  a:link {
+    color: black;
+
+  }
+  a:visited {
+    color: black;
+  }
+  a:active {
+      color:gray;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    border:  solid black;
+    }
+
