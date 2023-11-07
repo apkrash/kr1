@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SweetLab</title>
+    <link href="order.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header align="center>">
+    <table id="top" width="100%" border="0" cellspacing="3">
+        <tr>
+            <td><a href="mysite.html" target="_self"> SweetLab</a></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+            <td><a href="torti.html" target="_self">Торты</a></td>
+            <td><a href="pirosnie.html" target="_self">Пирожные</a></td>
+            <td><a href="onas.html" target="_self"> О нас</a></td>
+            <td><a href="kontakti.html" target="_self"> Контакты</a></td>
+            <td><a href="order.html" target="_blank"> Заказать</a></td>
+        </tr>
+    </table>
+</header>
+<table width="100%">
+    <tr>
+    <td rowspan="2">
+        <div id="form">
+            <form action="https://www.bing.com/search" method="get" target="_blank">
+                <div class="oformlenie"> Оформление заказа:</div>
+                <div class="formblock">
+                    <br> Фамилия: <input type="text" placeholder="Фамилия" name="surname">
+                    <br> Имя: <input type="text" placeholder="Имя" name="name">
+                    <br> Отчество: <input type="text" placeholder="Отчество" name="patronymic">
+                    <br> Контактный телефон:<input type="text" placeholder="+7 999 999 99 99" name="phone">
+                    <br> E-mail:<input type="text" placeholder="E-mail@.com" name="email">
+                </div>
+
+                <div class="formblock"> Выбранные десерты:<br>
+                    <input type="Checkbox" name="cake" value="12" checked> Торт "Прага"<br>
+                    <input type="Checkbox" name="cake" value="1" checked> Торт "Птичье молоко"<br>
+                    <input type="Checkbox" name="cake" value="2" checked> Торт "Красный бархат"<br>
+                    <input type="Checkbox" name="cake" value="3" checked> Торт "Медовик"<br>
+                    <input type="Checkbox" name="cake" value="4" checked> Торт "Наполеон"<br>
+                    <input type="Checkbox" name="cake" value="5" checked> Торт "Черничный"<br>
+                    <input type="Checkbox" name="cake" value="6" checked> Капкейки<br>
+                    <input type="Checkbox" name="cake" value="7" checked> Пирожное "Шу"<br>
+                    <input type="Checkbox" name="cake" value="8" checked> Пирожное "Макарунс"<br>
+                    <input type="Checkbox" name="cake" value="9" checked> Пирожное "Эклер"<br>
+                    <input type="Checkbox" name="cake" value="10" checked> Пирожное "Картошка"<br>
+                    <input type="Checkbox" name="cake" value="11" checked> Пирожное "Персики"<br>
+
+
+                    <br> Доставка в город:
+
+                    <br> <input type="radio" name="city" id="contactChoice1" value="MSK">
+                    <lable for="contactChoice1"> Москва</lable>
+
+                    <br> <input type="radio" name="city" id="contactChoice2" value="MKAD">
+                    <lable for="contactChoice2"> За МКАД</lable>
+
+
+                </div>
+
+                <div class="formblock">
+                    В какое время вы бы хотели получить доставку?
+                    <select>
+                        <option>С 8 до 10</option>
+                        <option>С 10 до 12</option>
+                        <option>С 12 до 14</option>
+                        <option>С 14 до 16</option>
+                        <option>С 16 до 18</option>
+                        <option>С 18 до 20</option>
+                        <option>С 20 до 22</option>
+                    </select>
+                </div>
+                <div class="formblock">
+                    Способ оплаты:
+                    <select>
+                        <option>Банковской картой курьеру</option>
+                        <option>Банковской картой на сайте</option>
+                        <option>Наличными курьеру</option>
+                    </select>
+                </div>
+                <div class="formblock">
+                    Комментарии к заказу:
+                    <br><textarea id="freetext" name="textarea">  </textarea>
+                </div>
+
+                <button type="submit">
+                    Заказать
+                </button>
+                <button type="reset">
+                    Сбросить
+                </button>
+
+            </form>
+        </div>
+    </td>
+    <td>
+        <div>
+            <img width="500" src="tort2.jpg"></div>
+    </td>
+<tr>
+    <td>
+        <div><img width="500" src="tort.jpg"></div>
+    </td>
+</tr>
+</table>
+
+
+<footer>
+    <table border="0" align="center" width="80%">
+        <tr>
+            <td rowspan="2">
+                 <a href="mysite.html" target="_self"> SweetLab</a>
+            </td>
+            <td rowspan="2">
+                <ul type="circle">
+                    <li><a href="https://vk.com/" target="_blank">VKontakte</a></li>
+                    <li><a href="https://web.telegram.org/" target="_blank"> Telegram</a></li>
+                    <li id="phone"><a href="#phone" target="_self">+79603000000</a></li>
+                </ul>
+            </td>
+            <td align="right"><a href="#top" target="_self"><img height="80" width="80" src="./top.jpg"> </a></td>
+        </tr>
+        <tr>
+            <td align="right"><font size="6">Наверх</font></td>
+        </tr>
+    </table>
+</footer>
+
+</body>
+</html>
