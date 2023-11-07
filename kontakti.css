@@ -1,0 +1,69 @@
+body{
+    font-family: 'dance', serif;
+    background-color: white;
+     }
+
+a {
+    text-decoration: none;
+  }
+  a:link {
+    color: black;
+
+  }
+  a:visited {
+    color: black;
+  }
+  a:active {
+      color:gray;
+  }
+
+header {
+    text-align: center;
+    font-size: 40px;
+padding: 10px 10px 10px 10px;
+}
+
+
+.main-title{
+    width: 100%;
+    margin: 10px auto;
+    color: black;
+    padding:15px;
+    font-size: 60px;
+}
+
+.opisanie{
+    width: 100%;
+    margin: 10px auto;
+    margin-bottom: 100px;
+    background: white;
+    color: black;
+    padding:15px;
+    font-size: 30px;
+}
+#opisanie-mono{
+    font-weight: 600;
+    text-align: center;
+}
+
+ .cake-wrap {
+    width: 1000px;
+    margin-bottom: 100px;
+    background: white;
+    padding: 15px;
+ }
+
+ .cake {
+    position: relative;
+    overflow: hidden;
+ }
+ .cake img {
+    width: 600px;
+ }
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    border:  solid black;
+    }
