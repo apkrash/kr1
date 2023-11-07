@@ -1,0 +1,82 @@
+body{
+    font-family: 'dance', serif;
+    background-color: white;
+    }
+
+header {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    }
+
+.formblock {
+    padding:10px
+    font-size: 20px;
+
+}
+    button{
+    margin:0 20px 40px 20px;
+    padding:0 10px;
+    border: thin solid black;
+    background-color:white ;
+    font-size: 20px;
+    height:50px;
+    }
+
+    a {
+    text-decoration: none;
+  }
+  a:link {
+    color: black;
+
+  }
+  a:visited {
+    color: black;
+  }
+  a:active {
+      color:gray;
+  }
+    #form{
+    margin:40px 40px;
+    padding:10px 150px;
+    background-color: white;
+    border: thin solid black;
+    width: 50%;
+    }
+
+    #freetext{
+    margin:10px 10px 0 10px;
+    padding:10px;
+    width: 600px;
+    height: 100px;
+    }
+
+input{
+margin:10px;
+height: 20px;
+}
+
+select{
+margin:10px;
+font-size:24px;
+}
+
+
+.oformlenie{
+text-align: center;
+vertical-align: middle;
+font-size: 30px;
+background-color: white;
+padding:20px 0 20px 0;
+margin:20px 0 0 0;
+width:100%;
+border: thin solid black;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    border:  solid black;
+    }
+
