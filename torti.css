@@ -18,9 +18,11 @@ a {
   }
   a:visited {
     color: black;
+     text-decoration: underline;
   }
   a:active {
-      color:gray;
+      color:gray
+      text-decoration: underline;
   }
 .cake-wrap {
     width: 400px;
