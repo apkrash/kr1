@@ -32,9 +32,11 @@ header {
   }
   a:visited {
     color: black;
+     text-decoration: underline;
   }
   a:active {
-      color:gray;
+      color:gray
+      text-decoration: underline;
   }
     #form{
     margin:40px 40px;
