@@ -47,13 +47,14 @@ a {
     color: black;
 
   }
-  a:visited {
+    a:visited {
     color: black;
+     text-decoration: underline;
   }
   a:active {
-      color:gray;
+      color:gray
+      text-decoration: underline;
   }
-
   footer {
     text-align: center;
     font-size: 30px;
